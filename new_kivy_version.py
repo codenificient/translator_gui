@@ -7,7 +7,6 @@ from kivy.uix.button import Button
 from googletrans import Translator
 from kivy.uix.filechooser import FileChooserListView
 
-
 class TranslateApp(BoxLayout):
 
     def __init__(self, **kwargs):
@@ -72,12 +71,10 @@ class TranslateApp(BoxLayout):
         # Set translated text as the output_text content
         self.output_text.text = translated_text
 
-
 class TranslateAppKivy(App):
 
     def build(self):
         return TranslateApp()
-
 
 if __name__ == '__main__':
     TranslateAppKivy().run()

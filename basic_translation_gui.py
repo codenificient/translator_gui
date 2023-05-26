@@ -2,7 +2,6 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QFileDialog, QLabel, QPushButton, QTextEdit, QGridLayout
 from googletrans import Translator
 
-
 class TranslatorApp(QWidget):
     def __init__(self):
         super().__init__()

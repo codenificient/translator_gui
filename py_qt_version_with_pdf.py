@@ -4,7 +4,6 @@ import PyPDF2
 from googletrans import Translator
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTextEdit, QAction, QFileDialog, QPushButton
 
-
 class TranslateApp(QMainWindow):
 
     def __init__(self):
@@ -82,7 +81,6 @@ class TranslateApp(QMainWindow):
 
         # Set translated text as the output_text content
         self.output_text.setText(translated_text)
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
